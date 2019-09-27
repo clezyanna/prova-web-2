@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Cronômetro</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/materialize.css">
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	
+		<nav>
+		    <div class="nav-wrapper">
+		      <a href="#" class="brand-logo center">Cronômetro</a>
+		    </div>
+		  </nav>
+
+		<main>
+
+		<body onload= "cronometro(1)">
+		<div id="cronometro" class="cro">
+			59:59
+		</div>
+		<section class="container">
+		    <h2 id="titulo-form">formulário da avaliação</h2>
+		    <form id="form-adiciona">
+		        <div class="">
+		            <label for="questao1">Questão1:</label>
+		            <input id="questao1" name="questao1" type="text" placeholder="Começe a resolver" class="campo">
+		        </div>
+		        <div class="grupo">
+		            <label for="questao2">Questão2:</label>
+		            <input id="questao2" name="questao2" type="text" placeholder="Começe a resolver" class="campo campo-medio">
+		        </div>
+		    
+		        <input type ="submit" id="add-horas" class="waves-effect waves-light btn"></input>
+		    </form>
+		</section>
+
+		<script src="js/index.js" ></script>
+		<!--<script src="js/teste.js" ></script>-->
+
+	
+
+	</body>
+</html>
+	

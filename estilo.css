@@ -1,0 +1,26 @@
+#cronometro{
+
+	text-align: center;
+	position: relative;
+	left:900px;
+	top:30px;
+	color:#fafafa;
+	font-size: 30px;
+	width:100px;
+	background-color: #bf360c;
+
+
+}
+#add-horas{
+	left:568px;
+	top:40px;
+	background-color: #bf360c;
+
+}
+.nav-wrapper{
+	background-color: #bf360c;
+
+}
+#titulo-form{
+	font-size: 40px;
+}
